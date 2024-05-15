@@ -20,46 +20,60 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Description <!-- omit in toc -->
 
-## Installation
+NestJS REST API template for a typical project
 
-```bash
-$ npm install
-```
+[Full documentation here](/docs/readme.md)
 
-## Running the app
+Demo: <https://nestjs-template-test.herokuapp.com/docs>
 
-```bash
-# development
-$ npm run start
+Belongs to the [bc templates](https://bctemplates.com/) ecosystem
 
-# watch mode
-$ npm run start:dev
+## Table of Contents <!-- omit in toc -->
 
-# production mode
-$ npm run start:prod
-```
+- [Features](#features)
+- [Contributors](#contributors)
+- [Support](#support)
 
-## Test
+## Features
 
-```bash
-# unit tests
-$ npm run test
+- [x] Database. Support [TypeORM](https://www.npmjs.com/package/typeorm) and [Mongoose](https://www.npmjs.com/package/mongoose).
+- [x] Seeding.
+- [x] Config Service ([@nestjs/config](https://www.npmjs.com/package/@nestjs/config)).
+- [x] Mailing ([nodemailer](https://www.npmjs.com/package/nodemailer)).
+- [x] Sign in and sign up via email.
+- [x] Social sign in (Apple, Facebook, Google, Twitter).
+- [x] Admin and User roles.
+- [x] Internationalization/Translations (I18N) ([nestjs-i18n](https://www.npmjs.com/package/nestjs-i18n)).
+- [x] File uploads. Support local and Amazon S3 drivers.
+- [x] Swagger.
+- [x] E2E and units tests.
+- [x] Docker.
+- [x] CI (Github Actions).
 
-# e2e tests
-$ npm run test:e2e
+## Contributors
 
-# test coverage
-$ npm run test:cov
-```
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shchepotin"><img src="https://avatars.githubusercontent.com/u/6001723?v=4?s=100" width="100px;" alt="Vladyslav Shchepotin"/><br /><sub><b>Vladyslav Shchepotin</b></sub></a><br /><a href="#maintenance-Shchepotin" title="Maintenance">🚧</a> <a href="#doc-Shchepotin" title="Documentation">📖</a> <a href="#code-Shchepotin" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SergeiLomako"><img src="https://avatars.githubusercontent.com/u/31205374?v=4?s=100" width="100px;" alt="SergeiLomako"/><br /><sub><b>SergeiLomako</b></sub></a><br /><a href="#code-SergeiLomako" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ElenVlass"><img src="https://avatars.githubusercontent.com/u/72293912?v=4?s=100" width="100px;" alt="Elena Vlasenko"/><br /><sub><b>Elena Vlasenko</b></sub></a><br /><a href="#doc-ElenVlass" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://khulnasoft.com"><img src="https://avatars.githubusercontent.com/u/226194?v=4?s=100" width="100px;" alt="Rodion"/><br /><sub><b>Rodion</b></sub></a><br /><a href="#business-sars" title="Business development">💼</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+If you seek consulting, support, or wish to collaborate, please contact us via [templates@khulnasoft.com](mailto:templates@khulnasoft.com). For any inquiries regarding templates, feel free to ask on [GitHub Discussions](https://github.com/khulnasoft/nestjs-template/discussions) or [Discord](https://discord.com/channels/520622812742811698/1197293125434093701).
